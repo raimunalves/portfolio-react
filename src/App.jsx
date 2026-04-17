@@ -3,10 +3,10 @@ import reactLogo from './assets/react.svg'
 import viteLogo from './assets/vite.svg'
 import heroImg from './assets/hero.png'
 import './App.css'
-import Header from "./components/Header";
-import Sobre from "./components/Sobre";
-import Projetos from "./components/Projetos";
-import Footer from "./components/Footer";
+import Header from "./components/header";
+import Sobre from "./components/sobre";
+import Projetos from "./components/projetos";
+import Footer from "./components/footer";
 import "./style.css";
 
 
