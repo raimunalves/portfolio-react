@@ -16,6 +16,7 @@ function App() {
   return (
     <>
       <Header />
+      <section id="spacer"></section>
       <section id="center">
         <div>          
           <h1>Olá, seja bem vindo ao meu portifólio</h1>
@@ -31,24 +32,24 @@ function App() {
         </div>    
         
       </section>
-
+      <section id="spacer"></section>
       <div className="ticks"></div>
 
-      <section id="next-steps">
+      <section id="center">
         <div id="docs">
           
           <Sobre />
           <ul>
             <li>
               <a href="http://lattes.cnpq.br/0152954677193492" target="_blank">
-                <img className="button-icon" src="/curriculo.png" alt="" />
-                Learn more
+                <img className="button-icon" src="/curriculo.png" alt="" style={{ maxWidth: "2%", height: "auto" }}  />
+                Saiba mais
               </a>
             </li>
           </ul>
         </div>
         <div id="social">
-          
+         <section id="spacer"></section> 
           <Projetos />
           
         </div>
